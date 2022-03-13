@@ -17,15 +17,10 @@ def get_tag(tag):
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="DICOM tag finder v1.0",
-    )
+    parser = argparse.ArgumentParser(description="DICOM Tag Finder v1.0",)
 
     parser.add_argument(
-        "-i",
-        "--image",
-        help="Source DICOM path",
-        required=True,
+        "-i", "--image", help="Source DICOM path", required=True,
     )
     parser.add_argument(
         "-t",
@@ -35,10 +30,7 @@ def main():
     )
 
     parser.add_argument(
-        "-a",
-        "--all",
-        action="store_true",
-        help="Print all tags",
+        "-a", "--all", action="store_true", help="Print all tags",
     )
     if len(sys.argv) == 1:
         parser.print_help()
