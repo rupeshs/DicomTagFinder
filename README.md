@@ -1,6 +1,9 @@
 # DicomTagFinder
 Simple tool to search DICOM tags.
 
+![DicomTagFinder](https://raw.githubusercontent.com/rupeshs/DicomTagFinder/main/data/dicom_tag_finder.png)
+
+
 # Dependencies
  * Python 3.8+
  * pipenv
